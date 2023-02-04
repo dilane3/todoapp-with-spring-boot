@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spring Boot Thymeleaf Web Application</title>
+
+    <link rel="stylesheet" th:href="@{/style.css}">
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <span class="logo">Todo App</span>
+
+        <span class="info">Powered by <a>Spring Boot</a></span>
+      </header>
+
+      <section class="todoContainer">
+        <div class="todoForm">
+          <input class="todoInput" type="text" placeholder="Add a new todo" />
+          <button class="todoButton" type="submit">Add</button>
+        </div>
+
+        <ul class="todoList">
+          <li class="todoItem">
+            <span>Learn Spring Boot</span>
+            <button class="todoButton">Delete</button>
+          </li>
+
+          <li class="todoItem">
+            <span>Go to the market</span>
+            <button class="todoButton">Delete</button>
+          </li>
+
+          <li class="todoItem">
+            <span>Watch movies</span>
+            <button class="todoButton">Delete</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

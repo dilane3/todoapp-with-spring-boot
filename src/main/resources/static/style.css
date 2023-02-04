@@ -1,0 +1,85 @@
+body {
+  background-color: #f0f0f0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.info {
+  font-size: 14px;
+  color: #444444;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info > a {
+  color: #1b1b1b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.todoContainer {
+  width: 400px;
+  min-height: 400px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+}
+
+.todoForm {
+  padding: 20px;
+  display: flex;
+}
+
+.todoInput {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+.todoButton {
+  border: none;
+  background-color: #fff;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.todoList {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
